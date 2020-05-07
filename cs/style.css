@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: white;
+  
+  background-image: url(../images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+  background-size: cover;
+}
+header {
+  padding: 60px;
+}
+
+.logo {
+  width: 220px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
+
+.main-image {
+  padding-left: 60px;
+}
+
+.main-text {
+  font-size: 30px;
+  padding: 0 80px;
+}
+
+.main-text p {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.button-register {
+  width: 180px;
+  height: 50px;
+  font-size: 16px;
+  color: hsl(257, 40%, 49%);
+  border-radius: 30px;
+  border-style: none;
+  box-shadow: 0 5px 15px black;
+  background-color: white;
+}
+
+/* footer-section */
+
+.footer {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social {
+  display: inline;
+  align-self: flex-end;
+  margin: 20px;
+}
+
+/* social icons styling */
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* The last attribution section */
+.attribution {
+  text-align: center;
+  font-size: 13px;
+}
+.attribution a {
+  color: slategray;
+}
+
+
+/* Responsive to mobile browsers */
+@media screen and (max-width: 400px) {
+  body {
+    background-image: url(../images/bg-mobile.svg);
+  }
+  header  {
+    padding: 40px;
+  }
+  .logo {
+    width: 150px;
+  }
+  main {
+    flex-direction: column;
+  }
+  .main-image {
+    width: 340px;
+    padding: 0 30px;
+  }
+  
+  .main-text {
+    text-align: center;
+    font-size: 17px;
+    padding: 0 30px;
+  }
+  
+  .main-text p {
+    font-size: 16px;
+  }
+  .button-register {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+  }
+  .social {
+    align-self: center;
+    padding-top: 20px;
+  }
+  .attribution {
+    font-size: 10px;
+  }
+}
