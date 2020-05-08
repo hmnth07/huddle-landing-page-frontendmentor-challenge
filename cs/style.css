@@ -25,6 +25,7 @@ main {
 }
 
 .main-image {
+  width: 100%;
   padding-left: 60px;
 }
 
@@ -92,7 +93,7 @@ main {
 
 
 /* Responsive to mobile browsers */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   body {
     background-image: url(../images/bg-mobile.svg);
   }
@@ -106,7 +107,7 @@ main {
     flex-direction: column;
   }
   .main-image {
-    width: 340px;
+    
     padding: 0 30px;
   }
   
